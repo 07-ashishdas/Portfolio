@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ashish Das | Automation Engineer</title>
   <meta name="description" content="Ashish Das - Automation Engineer specializing in industrial automation, Python, and software testing.">
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
   <script>
     if (localStorage.getItem('theme') === 'dark' || !localStorage.getItem('theme')) {
       document.documentElement.classList.add('dark')
     }
   </script>
-  <link rel="stylesheet" href="/src/style.css">
+  <link rel="stylesheet" href="./src/style.css">
 </head>
 <body class="min-h-screen">
 
@@ -19,18 +19,18 @@
 
   <nav class="fixed top-0 left-0 w-full z-50 py-4 px-6 transition-all duration-500" id="navbar">
     <div class="max-w-7xl mx-auto flex items-center justify-between">
-      <a href="/" class="font-display text-xl font-bold text-white hover:text-neon-cyan transition-colors duration-300 relative group">
+      <a href="./" class="font-display text-xl font-bold text-white hover:text-neon-cyan transition-colors duration-300 relative group">
         &lt;Ashish /&gt;
         <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-neon-cyan to-neon-purple group-hover:w-full transition-all duration-300"></span>
       </a>
 
       <div class="hidden md:flex items-center gap-8" id="navMenu">
-        <a href="/" class="nav-link text-sm font-medium tracking-wide pb-1">Home</a>
-        <a href="/about.html" class="nav-link text-sm font-medium tracking-wide pb-1">About</a>
-        <a href="/experience.html" class="nav-link text-sm font-medium tracking-wide pb-1">Experience</a>
-        <a href="/skills.html" class="nav-link text-sm font-medium tracking-wide pb-1">Skills</a>
-        <a href="/projects.html" class="nav-link text-sm font-medium tracking-wide pb-1">Projects</a>
-        <a href="/contact.html" class="nav-link text-sm font-medium tracking-wide pb-1">Contact</a>
+        <a href="./" class="nav-link text-sm font-medium tracking-wide pb-1">Home</a>
+        <a href="./about.html" class="nav-link text-sm font-medium tracking-wide pb-1">About</a>
+        <a href="./experience.html" class="nav-link text-sm font-medium tracking-wide pb-1">Experience</a>
+        <a href="./skills.html" class="nav-link text-sm font-medium tracking-wide pb-1">Skills</a>
+        <a href="./projects.html" class="nav-link text-sm font-medium tracking-wide pb-1">Projects</a>
+        <a href="./contact.html" class="nav-link text-sm font-medium tracking-wide pb-1">Contact</a>
       </div>
 
       <button class="md:hidden flex flex-col gap-1.5 p-2 z-50" id="navToggle" aria-label="Toggle menu">
@@ -59,11 +59,11 @@
       </p>
 
       <div class="flex items-center justify-center gap-4 flex-wrap mb-12">
-        <a href="/projects.html" class="btn-primary group">
+        <a href="./projects.html" class="btn-primary group">
           <span>View Projects</span>
           <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
         </a>
-        <a href="/contact.html" class="btn-outline">
+        <a href="./contact.html" class="btn-outline">
           <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
           <span>Contact Me</span>
         </a>
@@ -90,8 +90,8 @@
   </section>
 
   <script type="module">
-    import initScene from '/src/three-scene.js'
-    import { initNav } from '/src/nav.js'
+    import initScene from './src/three-scene.js'
+    import { initNav } from './src/nav.js'
     initNav()
     initScene()
 
